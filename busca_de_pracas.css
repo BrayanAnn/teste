@@ -1,0 +1,165 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* header  */
+
+header {
+    border-bottom-color: #ccc;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+.font-cabecalho {
+    font-size: 0.85rem;
+    color: #e6e6e6;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.font-acessilidade {
+    font-size: 0.7rem;
+    color: black;
+    
+}
+
+.a-forte {
+    font-size: 0.95rem;
+    color: black;
+    font-weight: 800;
+}
+
+.lista-acess {
+    
+    margin-top: 0.4rem;
+}
+
+.logo {
+    padding-bottom: 1rem;
+    
+}
+
+.titulo-header h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    
+}
+
+
+
+
+/* fim  header  */
+
+.bg-silver{
+    background-color: #e8eaed;
+    padding-bottom: 5rem;
+}
+
+.map{
+    position: relative;
+}
+
+.map-card{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20%;
+}
+
+.card {
+    border: 1.75px rgb(92, 92, 92) solid;
+    border-radius: 20px;
+    padding: 0.5rem;
+    
+}
+
+
+.card-titulo h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-conteudo p input{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 0.3rem;
+}
+
+.card-link p {border-top: 1px solid rgb(212, 211, 211);
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+/* footer */
+
+
+ul li {
+    color: white;
+}
+
+.li-font {
+    font-size: 0.9rem;
+}
+
+#font-bold {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.contaiener-footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+@media only screen and (max-width: 940px) {
+    body{
+        padding: 0;
+    }
+    
+    .map-card{
+        position: inherit;
+        width: 100%;
+        justify-content: space-around;
+        right: 0;
+        top: 0;
+        border: 0;
+        border-radius: 0;
+    }
+}
+@media only screen and (max-width: 576px){
+    .card-link{
+        display: none;
+    }
+
+    .logo-footer{
+        display: none;
+    }
+
+    .email-footer{
+        display: none;
+    }
+
+    .acesso-informacao {
+        display: none;
+    }
+    .transparencia {
+        display: none;
+    }
+
+    .container-acess {
+        display: none;
+    }
+
+    .img-prefeitura {
+        display: none;
+    }
+
+}
+    
+
+
